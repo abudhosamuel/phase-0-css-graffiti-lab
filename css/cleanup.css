@@ -1,1 +1,37 @@
-/* write your override styles here */
+/* Hide the graffiti tags by setting their display to none */
+
+/* Tag-1 */
+#wall .tag-1 {
+    display: none;
+  }
+  
+  /* Tag-2 */
+  #wall #tag-2 {
+    display: none;
+  }
+  
+  /* Tag-3 */
+  #wall #tag-3.slick.wicked {
+    display: none;
+  }
+  
+  /* Tag-4 */
+  #wall .parent #tag-4 {
+    display: none;
+  }
+  
+  /* Tag-5 */
+  #wall .parent #tag-5.slick {
+    display: none;
+  }
+  
+  /* Tag-6 */
+  #wall .parent div:last-child #tag-6 {
+    display: none;
+  }
+  
+  /* Tag-7 */
+  #wall .parent div > #tag-7.slick {
+    display: none;
+  }
+  
